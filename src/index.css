@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navBarCat::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+#navBarCat::-webkit-scrollbar {
+  width: 0.1em;
+}
